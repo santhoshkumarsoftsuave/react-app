@@ -1,14 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+// import {ENVIRONMENT} from '@env'
 function App() {
-  const env = process.env.ENVIRONMENT
+  const env = process.env.baseUrl;
+  console.log('env>>>',env,process.env)
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload and softsuave new change {{env}}.
+          Edit <code>src/App.js</code> and save to reload and softsuave new change.
         </p>
+        <p></p>
         <a
           className="App-link"
           href="https://reactjs.org"
