@@ -10,7 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>added invalidation created lambda</p>
+        <p>created lambda to create invalidation</p>
         <a
           className="App-link"
           href="https://reactjs.org"
