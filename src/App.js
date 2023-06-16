@@ -2,14 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 // import {ENVIRONMENT} from '@env'
 function App() {
-  const env = process.env.baseUrl;
-  console.log('env>>>',env,process.env)
+  const env = process.env;
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload {env.REACT_APP_ENV}.
         </p>
         <p></p>
         <a
